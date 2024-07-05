@@ -62,11 +62,11 @@
                 <th>No</th>    
                 <th>Platform</th>
                 <th>HUB ID</th>
-                <th>Tanggal Instalasi</th>
+                <th>Tahun Instalasi</th>
                 <th>HUB Status</th>
                 <th>TTR</th>
                 <th>AV (%)</th>
-                <th>Create At</th>
+                <th>Tanggal Dibuat</th>
                 <th>Aksi</th>
             </tr>
         </thead>
@@ -97,53 +97,54 @@
             </div>
         </td>
     </tr>
-          <!--  Modal Edit-->
-    <div class="modal fade" id="edit<?= esc($item['hub_id']); ?>">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <!-- Modal Header -->
-                <div class="modal-header bg-primary text-white">
-                    <h5 class="modal-title">Edit Data</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <!-- Modal body -->
-                <form id="addDataForm"action="/hub/edit/<?= esc($item['hub_id']); ?>" method="POST" enctype="multipart/form-data">
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label for="platform">Platform</label>
-                            <input type="text" name="platform" value="<?= esc($item['platform']); ?>" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="id">ID</label>
-                            <input type="text" name="id" value="<?= esc($item['id']); ?>" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="tanggal_instalasi">Tanggal Instalasi</label>
-                            <input type="date" name="tanggal_instalasi" value="<?= esc($item['tanggal_instalasi']); ?>" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="hub_status">Hub Status</label>
-                            <input type="text" name="hub_status" value="<?= esc($item['hub_status']); ?>" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="ttr">TTR</label>
-                            <input type="number" name="ttr" value="<?= esc($item['ttr']); ?>" class="form-control">
-                        </div>
-                        <input type="hidden" name="hub_id" value="<?= esc($item['hub_id']); ?>">
+       <!--  Modal Edit-->
+<div class="modal fade" id="edit<?= esc($item['hub_id']); ?>">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title">Edit Data</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <!-- Modal body -->
+            <form id="addDataForm" action="/hub/edit/<?= esc($item['hub_id']); ?>" method="POST" enctype="multipart/form-data">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="platform">Platform</label>
+                        <input type="text" name="platform" value="<?= esc($item['platform']); ?>" class="form-control" required>
                     </div>
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
+                    <div class="form-group">
+                        <label for="id">ID</label>
+                        <input type="text" name="id" value="<?= esc($item['id']); ?>" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tanggal_instalasi">Tanggal Instalasi</label>
+                        <input type="datetime-local" name="tanggal_instalasi" value="<?= esc($item['create_at']); ?>" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="hub_status">Hub Status</label>
+                        <input type="text" name="hub_status" value="<?= esc($item['hub_status']); ?>" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="ttr">TTR</label>
+                    <input type="number" name="ttr" value="<?= esc($item['ttr']); ?>" class="form-control" required min="0">
+                    <input type="hidden" name="hub_id" value="<?= esc($item['hub_id']); ?>">
+                </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
                         <button type="submit" class="btn btn-primary" name="updatesla">Submit</button>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
                     </div>
                     </div>
-                </form>
-            </div>
+            </form>
         </div>
     </div>
+</div>
+
             
     <!--  Modal Hapus-->
     <div class="modal fade" id="hapus<?= esc($item['hub_id']); ?>">

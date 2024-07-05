@@ -76,7 +76,7 @@
             </tr>
         <?php endforeach; ?>
 
-        <!-- Edit Modal -->
+  <!-- Edit Modal -->
 <?php foreach ($users as $user): ?>
 <div class="modal fade" id="editModal<?= esc($user['id']); ?>" tabindex="-1" role="dialog" aria-labelledby="editModalLabel<?= esc($user['id']); ?>" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -91,33 +91,32 @@
                 <!-- Form for editing user -->
                 <form action="/users/edit/<?= esc($user['id']); ?>" method="post">
                     <div class="form-group">
-                    <div class="form-line">
-                        <label for="editEmail<?= esc($user['id']); ?>">Email</label>
-                        <input type="email" class="form-control" id="editEmail<?= esc($user['id']); ?>" name="email" value="<?= esc($user['email']); ?>">
-                    </div>
-                    </div>
-                    <div class="form-group">
-                    <div class="form-line">
-                        <label for="editUsername<?= esc($user['id']); ?>">Username</label>
-                        <input type="text" class="form-control" id="editUsername<?= esc($user['id']); ?>" name="username" value="<?= esc($user['username']); ?>">
-                    </div>
+                        <div class="form-line">
+                            <label for="editEmail<?= esc($user['id']); ?>">Email</label>
+                            <input type="email" class="form-control" id="editEmail<?= esc($user['id']); ?>" name="email" value="<?= esc($user['email']); ?>" required>
+                        </div>
                     </div>
                     <div class="form-group">
-        <div class="form-line">
-            <label for="role">Role</label>
-            <select class="form-control" id="role" name="role" required>
-                <?php foreach ($roles as $role): ?>
-                    <option value="<?= $role['id'] ?>" <?= ($role['id'] == $user['role_id']) ? 'selected' : '' ?>><?= $role['nama'] ?></option>
-                <?php endforeach; ?>
-            </select>
-        </div>
-    </div>
-
-                    <div class="form-group">
-                    <div class="form-line">
-                        <label for="editPassword<?= esc($user['id']); ?>">Password</label>
-                        <input type="password" class="form-control" id="editPassword<?= esc($user['id']); ?>" name="password" value="<?= esc($user['password']); ?>">
+                        <div class="form-line">
+                            <label for="editUsername<?= esc($user['id']); ?>">Username</label>
+                            <input type="text" class="form-control" id="editUsername<?= esc($user['id']); ?>" name="username" value="<?= esc($user['username']); ?>" required>
+                        </div>
                     </div>
+                    <div class="form-group">
+                        <div class="form-line">
+                            <label for="role">Role</label>
+                            <select class="form-control" id="role" name="role" required>
+                                <?php foreach ($roles as $role): ?>
+                                    <option value="<?= $role['id'] ?>" <?= ($role['id'] == $user['role_id']) ? 'selected' : '' ?>><?= $role['nama'] ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-line">
+                            <label for="editPassword<?= esc($user['id']); ?>">Password</label>
+                            <input type="password" class="form-control" id="editPassword<?= esc($user['id']); ?>" name="password" value="<?= esc($user['password']); ?>" required>
+                        </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Simpan</button>
                 </form>
@@ -126,6 +125,7 @@
     </div>
 </div>
 <?php endforeach; ?>
+
 <!-- Delete Modal -->
 <?php foreach ($users as $user): ?>
 <div class="modal fade" id="hapusModal<?= esc($user['id']); ?>" tabindex="-1" role="dialog" aria-labelledby="hapusModalLabel<?= esc($user['id']); ?>" aria-hidden="true">

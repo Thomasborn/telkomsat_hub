@@ -3,7 +3,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class SLA extends Model
+class SLA2 extends Model
 {
     protected $table = 'data_sla';
     protected $primaryKey = 'hub_id';

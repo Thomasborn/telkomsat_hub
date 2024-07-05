@@ -199,7 +199,7 @@ class HubController extends BaseController
         }
     
         // Redirect to a failure page or back to the form with an error message
-        return redirect()->to(base_url('hub'))->with('error', 'Gagal mengimpor data!');
+        return redirect()->to(base_url('hub'))->with('error', 'Gagal mengimpor dataa!');
     }
 
     public function delete($id)

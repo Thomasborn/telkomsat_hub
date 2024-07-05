@@ -36,8 +36,9 @@ class SLA extends Model
     // protected $cleanValidationRules = true;
     public function getAllData()
     {
-        return $this->findAll();
+        return $this->orderBy('create_at', 'DESC')->findAll();
     }
+    
 
     public function getDataById($id)
     {
