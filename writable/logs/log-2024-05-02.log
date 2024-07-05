@@ -1,0 +1,379 @@
+CRITICAL - 2024-05-02 03:28:27 --> ErrorException: Undefined array key "av"
+in APPPATH\Views\index.php on line 577.
+ 1 APPPATH\Views\index.php(577): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "av"', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\index.php', 577)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\ChartController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ChartController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 04:06:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\DataSLAController.php(59): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DataSLAController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataSLAController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 04:07:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/main', [], true)
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\DataSLAController.php(59): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DataSLAController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataSLAController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 05:24:51 --> ErrorException: Undefined variable $hub_id
+in APPPATH\Views\index.php on line 271.
+ 1 APPPATH\Views\index.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hub_id', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\index.php', 271)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\DataSLAController.php(59): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DataSLAController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataSLAController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 11:29:25 --> ErrorException: require(function.php): Failed to open stream: No such file or directory
+in APPPATH\Views\index.php on line 2.
+ 1 APPPATH\Views\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(function.php): Failed to open stream: No such file or directory', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\index.php', 2)
+ 2 APPPATH\Views\index.php(2): require()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\DataSLAController.php(59): view('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DataSLAController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataSLAController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 11:34:27 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\index.php on line 1.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\DataSLAController.php(59): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DataSLAController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataSLAController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 11:35:41 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\index.php on line 1.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\DataSLAController.php(59): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DataSLAController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataSLAController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 11:35:42 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\index.php on line 1.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\DataSLAController.php(59): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DataSLAController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataSLAController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 11:35:43 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\index.php on line 1.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\DataSLAController.php(59): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DataSLAController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataSLAController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 17:04:22 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\SLA"
+in SYSTEMPATH\Model.php on line 766.
+ 1 SYSTEMPATH\Model.php(766): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\SLA')
+ 2 SYSTEMPATH\BaseModel.php(783): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\HubController.php(86): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HubController->add()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HubController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 17:04:48 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\SLA"
+in SYSTEMPATH\Model.php on line 766.
+ 1 SYSTEMPATH\Model.php(766): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\SLA')
+ 2 SYSTEMPATH\BaseModel.php(783): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\HubController.php(86): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HubController->add()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HubController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+INFO - 2024-05-02 17:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-02 17:20:30 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\template\main.php on line 610.
+ 1 APPPATH\Views\template\main.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\template\\main.php', 610)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\template\\main.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('template/main', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('hub', [], true)
+ 6 APPPATH\Controllers\HubController.php(60): view('hub', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HubController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HubController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+INFO - 2024-05-02 17:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-02 17:44:10 --> ErrorException: Undefined variable $hub_id
+in APPPATH\Views\template\modal.php on line 46.
+ 1 APPPATH\Views\template\modal.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hub_id', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\template\\modal.php', 46)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\template\\modal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('template/modal', null, true)
+ 5 APPPATH\Views\hub.php(106): CodeIgniter\View\View->include('template/modal')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('hub', [], true)
+ 9 APPPATH\Controllers\HubController.php(60): view('hub', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HubController->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HubController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+INFO - 2024-05-02 17:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-02 17:44:41 --> ErrorException: Undefined variable $hub_id
+in APPPATH\Views\hub.php on line 109.
+ 1 APPPATH\Views\hub.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hub_id', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php', 109)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('hub', [], true)
+ 5 APPPATH\Controllers\HubController.php(60): view('hub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HubController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HubController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+INFO - 2024-05-02 17:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-02 17:44:42 --> ErrorException: Undefined variable $hub_id
+in APPPATH\Views\hub.php on line 109.
+ 1 APPPATH\Views\hub.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hub_id', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php', 109)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('hub', [], true)
+ 5 APPPATH\Controllers\HubController.php(60): view('hub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HubController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HubController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+INFO - 2024-05-02 17:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-02 17:44:43 --> ErrorException: Undefined variable $hub_id
+in APPPATH\Views\hub.php on line 109.
+ 1 APPPATH\Views\hub.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hub_id', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php', 109)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('hub', [], true)
+ 5 APPPATH\Controllers\HubController.php(60): view('hub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HubController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HubController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+INFO - 2024-05-02 17:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-02 17:44:44 --> ErrorException: Undefined variable $hub_id
+in APPPATH\Views\hub.php on line 109.
+ 1 APPPATH\Views\hub.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hub_id', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php', 109)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('hub', [], true)
+ 5 APPPATH\Controllers\HubController.php(60): view('hub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HubController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HubController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+INFO - 2024-05-02 17:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-02 17:46:12 --> ErrorException: Undefined variable $hub_id
+in APPPATH\Views\hub.php on line 97.
+ 1 APPPATH\Views\hub.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hub_id', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php', 97)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('hub', [], true)
+ 5 APPPATH\Controllers\HubController.php(60): view('hub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HubController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HubController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+INFO - 2024-05-02 17:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-02 17:48:16 --> ErrorException: Undefined variable $platform
+in APPPATH\Views\hub.php on line 110.
+ 1 APPPATH\Views\hub.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $platform', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php', 110)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\hub.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('hub', [], true)
+ 5 APPPATH\Controllers\HubController.php(60): view('hub', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HubController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HubController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+INFO - 2024-05-02 17:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 18:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-02 18:02:24 --> BadMethodCallException: Call to undefined method App\Models\SLA::updateDataSla
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\HubController.php(104): CodeIgniter\Model->__call('updateDataSla', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HubController->edit('26')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HubController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+INFO - 2024-05-02 18:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 18:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 18:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 18:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 18:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-02 18:15:45 --> mysqli_sql_exception: Table 'webt.users' doesn't exist in C:\Users\Msi\Downloads\joki\telkom\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Msi\Downloads\joki\telkom\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Msi\Downloads\joki\telkom\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Msi\Downloads\joki\telkom\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Msi\Downloads\joki\telkom\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Msi\Downloads\joki\telkom\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Msi\Downloads\joki\telkom\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Msi\Downloads\joki\telkom\app\Controllers\UserController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Msi\Downloads\joki\telkom\system\CodeIgniter.php(941): App\Controllers\UserController->index()
+#8 C:\Users\Msi\Downloads\joki\telkom\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\Users\Msi\Downloads\joki\telkom\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Msi\Downloads\joki\telkom\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Msi\Downloads\joki\telkom\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Do...')
+#12 {main}
+CRITICAL - 2024-05-02 18:15:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'webt.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserController.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 18:15:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'webt.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\UserController.php(13): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 18:15:45 --> [Caused by] mysqli_sql_exception: Table 'webt.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+CRITICAL - 2024-05-02 18:16:38 --> ErrorException: Undefined array key "is_user"
+in APPPATH\Views\users.php on line 19.
+ 1 APPPATH\Views\users.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_user"', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\users.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\users.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users', [], true)
+ 5 APPPATH\Controllers\UserController.php(14): view('users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
+INFO - 2024-05-02 18:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 18:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

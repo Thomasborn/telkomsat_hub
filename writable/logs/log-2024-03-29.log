@@ -1,0 +1,12 @@
+CRITICAL - 2024-03-29 16:42:41 --> ErrorException: Undefined variable $i
+in APPPATH\Views\index.php on line 555.
+ 1 APPPATH\Views\index.php(555): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\index.php', 555)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Msi\\Downloads\\joki\\telkom\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\DataSLAController.php(59): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DataSLAController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataSLAController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Msi\\Downloads\\joki\\telkom\\public\\index.php')
